@@ -2,6 +2,9 @@
   "name": "pony-town",
   "version": "0.53.1-alpha",
   "description": "A game of ponies building a town",
+  "engines": {
+    "node": "9.x"
+  },
   "main": "pony-town.js",
   "scripts": {
     "start": "node pony-town.js --login --admin --game",
